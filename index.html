@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BrightBooks Bookstore</title>
+  <style>
+    /* CSS Styles */
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    select {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">New Arrivals</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Welcome to BrightBooks Bookstore!</h1>
+    
+    <h2>Category 1: Fiction</h2>
+    <div>
+      <img src="book1.jpg" alt="Book 1">
+      <h3>Book 1: The Great Adventure</h3>
+      <p><strong>Author:</strong> John Smith</p>
+      <p><strong>Genre:</strong> Adventure</p>
+      <p><strong>Synopsis:</strong> Follow the thrilling journey of a young explorer as he embarks on a quest to save the world from an ancient curse. Packed with suspense, action, and unexpected twists, this book will keep you on the edge of your seat.</p>
+    </div>
+    
+    <div>
+      <img src="book2.jpg" alt="Book 2">
+      <h3>Book 2: Love in the Stars</h3>
+      <p><strong>Author:</strong> Emily Johnson</p>
+      <p><strong>Genre:</strong> Romance</p>
+      <p><strong>Synopsis:</strong> Immerse yourself in a heartwarming tale of love and destiny as two star-crossed lovers find each other against all odds. With its captivating characters and enchanting storyline, this book will make your heart soar.</p>
+    </div>
+    
+    <h2>Category 2: Non-Fiction</h2>
+    <div>
+      <img src="book3.jpg" alt="Book 3">
+      <h3>Book 3: The Power of Knowledge</h3>
+      <p><strong>Author:</strong> Sarah Thompson</p>
+      <p><strong>Genre:</strong> Self-Help</p>
+      <p><strong>Synopsis:</strong> Discover the secrets to personal growth and success with this empowering self-help guide. Packed with practical strategies and inspiring anecdotes, this book will help you unleash your full potential.</p>
+    </div>
+    
+    <div>
+      <img src="book4.jpg" alt="Book 4">
+      <h3>Book 4: The Wonders of the Universe</h3>
+      <p><strong>Author:</strong> David Wilson</p>
+      <p><strong>Genre:</strong> Science</p>
+      <p><strong>Synopsis:</strong> Embark on a mind-bending journey through space and time as this book explores the wonders of the universe. From black holes to galaxies, this captivating scientific exploration will leave you in awe.</p>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 BrightBooks Bookstore. All rights reserved.</p>
+  </footer>
+  
+  <form>
+    <h2>Contact Us</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <label for="genre">Preferred Book Genre:</label>
+    <select id="genre" name="genre">
+      <option value="fiction">Fiction</option>
+      <option value="non-fiction">Non-Fiction</option>
+    </select>
+    
+    <label for="newsletter">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter">
+    
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file">
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
